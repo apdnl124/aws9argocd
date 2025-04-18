@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: aws9-svc
+  name: aws9-deployment
   namespace: aws9c
 spec:
   replicas: 1
