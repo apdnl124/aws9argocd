@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: aws9ctn-yello
-          image: hub.aws9.pri/aws9/default
+          image: hub.aws9.pri/aws9/default:default
           ports:
             - containerPort: 80
           resources:
