@@ -32,7 +32,7 @@ metadata:
   namespace: aws9c
 spec:
   ports:
-  - name: aws9-port
+  - name: aws9-port-shop
     port: 80       # cluster-ip 의 포트 번호
     protocol: TCP
     targetPort: 80    # 컨테이너의 포트
